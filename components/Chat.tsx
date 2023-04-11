@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import { type Message, ChatLine, LoadingChatLine } from "./ChatLine";
 import { useCookies } from "react-cookie";
 
-const COOKIE_NAME = "bucky-ai-cookie";
+const COOKIE_NAME = "buzz-ai-cookie";
 
 // default first message to display in UI (not necessary to define the prompt)
 export const initialMessages: Message[] = [
   {
     who: "bot",
     message:
-      "Hi, I'am Bucky, an Q&A bot. I've read UW-Madison documents more than a thousand times.\nAsk me anything about the college!\n\nExample:\nTell me more about LGBT movement at UW-Madison.\nWhere and when can I swim?\nList professors doing database research.\nWrite two creative and unique verses about yourself, in the musical Hamilton's style, mimicking \"my shot\"",
+      "Hi, I'am Buzz AI, an Q&A bot. I've read 14842 official GaTech websites from housing, cc, cse, omscs, and 20 more sub-domains. Ask me anything about Tech!\n\nExample:\nList professors doing MLSys & HPC research.\nWhat's the Co-op policy for grad students?\nWhat are ways to apply for GTA?\nWrite two creative verses about yourself, in the musical Hamilton's style.",
   },
 ];
 

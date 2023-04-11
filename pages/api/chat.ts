@@ -20,7 +20,7 @@ export default async function handler(req: NextRequest) {
       method: "GET",
     },
   );
-
+  
   if (res.status != 200) {
     return new NextResponse(
       JSON.stringify({ text: "Failed to fetch answer" }),

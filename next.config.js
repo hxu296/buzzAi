@@ -9,7 +9,7 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/odysa/buckyai",
+        destination: "https://github.com/hxu296/gt-chat",
         permanent: false,
       },
     ];

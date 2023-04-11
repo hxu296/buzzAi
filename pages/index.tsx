@@ -7,7 +7,7 @@ function Home() {
   return (
     <Layout>
       <Head>
-        <title>Bucky AI</title>
+        <title>GT Chat</title>
       </Head>
       <Intro />
       <Chat />

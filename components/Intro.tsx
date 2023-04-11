@@ -11,15 +11,15 @@ export function Intro() {
         variants={FADE_DOWN_ANIMATION_VARIANTS}
       >
         <Balancer>
-          <span>Bucky AI -- </span>
-          <span>Q&A Bot with&nbsp;</span>
+          <span>Buzz AI -- </span>
+          <span>24/7 GT advisor for&nbsp;</span>
           <span className="bg-co bg-gradient-to-r from-blue-500 via-green-600 to-indigo-500 bg-clip-text text-transparent">
-            Intelligence
+            anything
           </span>
         </Balancer>
       </motion.h1>
       <a
-        href="https://github.com/odysa/buckyai"
+        href="https://github.com/hxu296/gt-chat"
         target="_blank"
         rel="noreferrer"
         className="mx-auto mb-3 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-black bg-white px-5 py-2 text-black transition-colors hover:bg-black hover:text-white"
